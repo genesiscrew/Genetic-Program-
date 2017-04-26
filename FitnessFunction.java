@@ -5,11 +5,11 @@ import org.jgap.gp.function.*;
 import org.jgap.gp.impl.*;
 import org.jgap.gp.terminal.*;
 
-public class MinimizingMakeChangeFitnessFunction extends GPFitnessFunction {
+public class FitnessFunction extends GPFitnessFunction {
 	Double[] x;
 	Double[] y;
 
-	public MinimizingMakeChangeFitnessFunction(Double[] x, Double[] y) {
+	public FitnessFunction(Double[] x, Double[] y) {
 		// TODO Auto-generated constructor stub
 		this.x = x;
 		this.y = y;

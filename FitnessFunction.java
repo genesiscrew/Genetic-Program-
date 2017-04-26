@@ -6,10 +6,10 @@ import org.jgap.gp.impl.*;
 import org.jgap.gp.terminal.*;
 
 public class FitnessFunction extends GPFitnessFunction {
-	Double[] x;
-	Double[] y;
+	Float[] x;
+	Float[] y;
 
-	public FitnessFunction(Double[] x, Double[] y) {
+	public FitnessFunction(Float[] x, Float[] y) {
 		// TODO Auto-generated constructor stub
 		this.x = x;
 		this.y = y;
